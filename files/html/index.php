@@ -1,9 +1,11 @@
 <?php
 
+ini_set('open_basedir', '/var/www/html/');
+
 // $file = $_GET["file"];
 $file = (isset($_GET['file']) ? $_GET['file'] : null);
 if (isset($file)){
-    if (preg_match("/phar|zip|bzip2|zlib|data|input|%00/i",$file)) { 
+    if (preg_match("/phar|zip|bzip2|zlib|data|input|%00/i",$file)) {
         echo('no way!');
         exit;
     }
@@ -57,7 +59,7 @@ if (isset($file)){
             </a>
             <a href="./change.php">
                 <button class="btn btn-lg btn-register btn-white" >我要修改收货地址</button>
-            </a> 
+            </a>
             <a href="./delete.php">
                 <button class="btn btn-lg btn-register btn-white" >我不想要了</button>
             </a>

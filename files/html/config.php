@@ -1,5 +1,7 @@
 <?php
 
+ini_set("open_basedir", getcwd() . ":/etc:/tmp");
+
 $DATABASE = array(
 
     "host" => "127.0.0.1",
