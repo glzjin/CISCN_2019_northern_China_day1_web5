@@ -1,12 +1,12 @@
-# Facebook 2019 Products Manager
+# CISCN 2019 华北赛区 Day1 Web5
 
 ## 题目详情
 
-- **Facebook 2019 Products Manager**
+- **CISCN 2019 华北赛区 Day1 Web5**
 
 ## 考点
 
--  代码审计
+- SQL 二次注入
 
 ## 启动
 
